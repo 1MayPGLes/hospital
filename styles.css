@@ -1,0 +1,12 @@
+body {
+    background-color: green;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.MainBox{
+    background-color: brown;
+}
+
+img {
+    border: 10px solid black;
+}

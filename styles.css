@@ -1,12 +1,102 @@
+:root {
+    --color-white: #FFF;
+    --color-black: #000;
+    --color-gray: #c9c9c9;
+    --color-blue: #2087CA;
+    --color-lblue: #28AAFF;
+    --color-green: #59B445;
+    --color-sky: #E9F5FE;
+    font-size: 16px !important;
+}
+
 body {
-    background-color: green;
+    margin: 0;
+    width: 100%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.MainBox{
-    background-color: brown;
+header .header {
+    border-bottom: 1px solid var(--color-gray);
+    padding: 15px 0;
 }
 
-img {
-    border: 10px solid black;
+header .header nav a{
+    font-size: 1.125rem;
+    font-weight: 650;
+    color: var(--color-blue);
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: 0.5s all ease;
+}
+
+header .header nav a:hover{
+    color: var(--color-green);
+    border-bottom: 2px solid var(--color-green);
+}   
+
+header .header div p{
+    font-size: 0.875rem;
+    font-weight: 500;
+    margin: 0%;
+}
+
+header .header button{
+    background: var(--color-blue);
+    border: none;
+    outline: none;
+    height: 30px;
+    transition: 0.5s all ease;
+}
+
+header .header button:hover{
+    background: var(--color-lblue);
+}
+
+header .header button p{
+    color: var(--color-white);
+    font-size: 0.875rem;
+    font-weight: 600;
+    margin: 0%;
+}
+
+footer{
+    background: var(--color-sky);
+}
+
+footer .svyaz div img{
+    margin: 0px 6px 0px 0px;
+}
+
+footer .svyaz p{
+    font-size: 1.125rem;
+    font-weight: 600;
+    margin: 0%;
+}
+
+footer .svyaz div p{
+    font-size: 0.875rem;
+    font-weight: 500;
+    margin: 0%;
+}
+
+footer .verh{
+    border-bottom: 1px solid var(--color-gray);
+}
+
+footer .ss p{
+    font-size: 1.125rem;
+    font-weight: 600;
+    margin: 0%;
+}
+
+footer .ss a{
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: var(--color-black);
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+}
+
+footer .ss a img{
+    margin: 0px 6px 0px 0px;
 }

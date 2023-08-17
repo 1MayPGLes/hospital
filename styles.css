@@ -1,7 +1,8 @@
 :root {
     --color-white: #FFF;
     --color-black: #000;
-    --color-gray: #c9c9c9;
+    --color-gray: #808080;
+    --color-lgray: #c9c9c9;
     --color-blue: #2087CA;
     --color-lblue: #28AAFF;
     --color-green: #59B445;
@@ -61,6 +62,7 @@ header .header button p{
 
 footer{
     background: var(--color-sky);
+    border-top: 1px solid var(--color-gray);
 }
 
 footer .svyaz div img{
@@ -68,30 +70,26 @@ footer .svyaz div img{
 }
 
 footer .svyaz p{
-    font-size: 1.125rem;
+    font-size: 1rem;
     font-weight: 600;
     margin: 0%;
 }
 
 footer .svyaz div p{
     font-size: 0.875rem;
-    font-weight: 500;
+    font-weight: 400;
     margin: 0%;
 }
 
-footer .verh{
-    border-bottom: 1px solid var(--color-gray);
-}
-
 footer .ss p{
-    font-size: 1.125rem;
+    font-size: 1rem;
     font-weight: 600;
     margin: 0%;
 }
 
 footer .ss a{
     font-size: 0.875rem;
-    font-weight: 500;
+    font-weight: 400;
     color: var(--color-black);
     text-decoration: none;
     border-bottom: 1px solid transparent;
@@ -99,4 +97,31 @@ footer .ss a{
 
 footer .ss a img{
     margin: 0px 6px 0px 0px;
+}
+
+footer .dan_ob_org p{
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 0%;
+}
+
+footer .dan_ob_org div p{
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: var(--color-black);
+}
+
+footer .sered{
+    border-top: 1px solid var(--color-gray);
+}
+
+footer .sered p{
+    font-size: 0.875rem;
+    font-weight: 300;
+}
+
+footer .niz p{
+    font-size: 1.25rem;
+    font-weight: 600;
+    opacity: 0.3;
 }

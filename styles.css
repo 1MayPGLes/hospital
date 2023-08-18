@@ -125,3 +125,26 @@ footer .niz p{
     font-weight: 600;
     opacity: 0.3;
 }
+
+main .box img{
+    border-radius: 20px;
+    width: 100%;
+}
+
+main .box div{
+    height: 60px;
+    align-items: center;
+}
+
+main .box a{
+    color: var(--color-blue);
+    font-size: 1.125rem;
+    font-weight: 500;
+    text-decoration: none;
+    transition: 0.5s all ease;
+    text-align: center;
+}
+
+main .box a:hover{
+    color: var(--color-green);
+}  

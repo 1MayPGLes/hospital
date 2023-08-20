@@ -6,7 +6,7 @@
     --color-blue: #2087CA;
     --color-lblue: #28AAFF;
     --color-green: #59B445;
-    --color-sky: #E9F5FE;
+    --color-sky: #E8F1FF;
     font-size: 16px !important;
 }
 
@@ -14,6 +14,12 @@ body {
     margin: 0;
     width: 100%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    background-color: var(--color-white);
 }
 
 header .header {
@@ -147,4 +153,67 @@ main .box a{
 
 main .box a:hover{
     color: var(--color-green);
-}  
+}
+
+section .elastic li{
+    transition: all ease 500ms;
+    list-style-type: none;
+    font-size: 1.125rem;
+    font-weight: 500;
+}
+
+section .elastic li::before{
+    content: '✙ ';
+    color: var(--color-blue);
+}
+
+section .elastic li.hide{
+    display: none;
+}
+
+section .elastic a{
+    color: var(--color-black);
+    font-size: 1.125rem;
+    font-weight: 500;
+    text-decoration: none;
+    transition: 0.3s all ease;
+}
+
+section .elastic a:hover{
+    color: var(--color-blue);
+}
+
+section .elastic code{
+    color: var(--color-blue);
+    font-size: 1.125rem;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+section input{
+    width: 95%;
+    height: 30px;
+    background: none;
+    font-size: 1.125rem;
+    font-weight: 500;
+    display: block;
+    margin: 20px auto;
+    padding: 10px;
+    border: 2px solid black;
+    outline: none;
+    transition: .3s;
+}
+
+section input:focus{
+    width: 100%;
+    border-color: var(--color-blue);
+}
+
+section{
+    background-image: url(images/bg1.jpg);
+    background-size: 100%;
+}
+
+section img{
+    height: 420px;
+}

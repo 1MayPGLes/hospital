@@ -291,3 +291,16 @@ section input:focus{
     align-items: center;
     padding-left: 70px;
 }
+
+.karta{
+    padding: 20px;
+}
+
+.map{
+    height: 700px;
+    width: 100%;
+}
+
+[class*="copyrights-pane"] {
+	display: none !important;
+}

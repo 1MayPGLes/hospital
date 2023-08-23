@@ -296,9 +296,16 @@ section input:focus{
     padding: 20px;
 }
 
+.karta h2{
+    padding-bottom: 20px;
+}
+
 .map{
-    height: 700px;
+    height: 400px;
     width: 100%;
+    border-radius: 14px 14px 14px 14px;
+    overflow: hidden;
+    position: relative;
 }
 
 [class*="copyrights-pane"] {
